@@ -8,9 +8,16 @@
 //  => 'PDF'
 
 
-
-
-
+function makeAcronym(phrase) {
+	let acr = phrase[0];
+	for (i = 0; i < phrase.length; i++) {
+		if (phrase[i] === " ") {
+			acr += phrase[i+1];
+		}
+	}
+	let res = acr.toUpperCase();
+	return res;
+}
 
 
 

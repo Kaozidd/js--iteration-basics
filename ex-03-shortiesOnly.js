@@ -11,7 +11,15 @@
 
 
 
-
+function shortiesOnly(array) {
+    const newArr = [];
+    for (i = 0; i < array.length; i++) {
+        if (array[i].length < 5) {
+            newArr.push(array[i]);
+        }
+    }
+    return newArr;
+}
 
 
 
