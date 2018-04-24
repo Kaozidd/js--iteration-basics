@@ -7,7 +7,7 @@ The purpose of this assignment is to improve your understanding and develop your
 
 ### Setup
 ```sh
-# (1) Go to your  psyCode/assignments directory and create the `js--iteration-basics` folder for this assignment
+# (1) Go to your psyCode/assignments directory and create the `js--iteration-basics` folder for this assignment
 cd ~/Documents/psyCode/assignments
 mkdir js--iteration-basics
 cd js--iteration-basics
