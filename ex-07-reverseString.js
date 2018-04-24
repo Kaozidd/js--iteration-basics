@@ -8,7 +8,6 @@
  *
 */
 
-
 function reverseString(string) {
 	let rev = "";
 	for (i = string.length - 1; i >= 0; i--) {
@@ -16,9 +15,6 @@ function reverseString(string) {
 	}
 	return rev;
 }
-
-console.log(reverseString("world"));
-
 
 //*-*~*~*~*~*~ Don't Touch *~*~*~*~*~*~*~*~*~*~*~
 console.assert( reverseString('books') === 'skoob')

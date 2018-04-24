@@ -7,8 +7,22 @@
 // makeAcronym('PNG')
 //  => 'PDF'
 
+// *~*~*~*~*~*~*~* BASIC FUNCTION *~*~*~*~*~*~*~*
 
-function makeAcronym(phrase) {
+// function makeAcronym(phrase) {
+// 	let acr = phrase[0];
+// 	for (i = 0; i < phrase.length; i++) {
+// 		if (phrase[i] === " ") {
+// 			acr += phrase[i+1];
+// 		}
+// 	}
+// 	let res = acr.toUpperCase();
+// 	return res;
+// }
+
+// *~*~*~*~*~*~*~* BASIC FUNCTION *~*~*~*~*~*~*~*
+
+function makeAcronym(phrase, bool) {
 	let acr = phrase[0];
 	for (i = 0; i < phrase.length; i++) {
 		if (phrase[i] === " ") {
@@ -18,8 +32,6 @@ function makeAcronym(phrase) {
 	let res = acr.toUpperCase();
 	return res;
 }
-
-
 
 //*~*~*-*~*~*~*~*~ Don't Touch *~*~*~*~*~*~*~*~*~*~*~
 
