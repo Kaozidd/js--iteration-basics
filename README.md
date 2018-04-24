@@ -7,14 +7,14 @@ The purpose of this assignment is to improve your understanding and develop your
 
 ### Setup
 ```sh
-# (1) Go to your  muktek/assignments directory and create the `js-iteration-basics` folder for this assignment
-cd ~/Documents/muktek/assignments
-mkdir js-iteration-basics
-cd js-iteration-basics
+# (1) Go to your  psyCode/assignments directory and create the `js--iteration-basics` folder for this assignment
+cd ~/Documents/psyCode/assignments
+mkdir js--iteration-basics
+cd js--iteration-basics
 
 
 # (2) Download the assignment-files with curl from the assignment repo and unzip
-curl https://raw.githubusercontent.com/muktek/assignment--js-iteration-basics/master/assignment-files.zip > assignment-files.zip
+curl https://raw.githubusercontent.com/Kaozidd/js--iteration-basics/master/assignment-files.zip > assignment-files.zip
 
 unzip assignment-files
 ```
