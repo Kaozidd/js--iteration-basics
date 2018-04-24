@@ -9,11 +9,9 @@
 
 
 function arrayToString(arrayInput){
-	let phrase = "";
-	for (i = 0; i < arrayInput.length; i++) {
-		phrase += arrayInput[i];
-	}
-	return phrase;
+
+	// 	WRITE YOUR CODE HERE!
+
 }
 
 

@@ -7,31 +7,16 @@
 // makeAcronym('PNG')
 //  => 'PDF'
 
-// *~*~*~*~*~*~*~* BASIC FUNCTION *~*~*~*~*~*~*~*
 
-// function makeAcronym(phrase) {
-// 	let acr = phrase[0];
-// 	for (i = 0; i < phrase.length; i++) {
-// 		if (phrase[i] === " ") {
-// 			acr += phrase[i+1];
-// 		}
-// 	}
-// 	let res = acr.toUpperCase();
-// 	return res;
-// }
 
-// *~*~*~*~*~*~*~* BASIC FUNCTION *~*~*~*~*~*~*~*
 
 function makeAcronym(phrase, bool) {
-	let acr = phrase[0];
-	for (i = 0; i < phrase.length; i++) {
-		if (phrase[i] === " ") {
-			acr += phrase[i+1];
-		}
-	}
-	let res = acr.toUpperCase();
-	return res;
+		
+	// 	WRITE YOUR CODE HERE!
+
 }
+
+
 
 //*~*~*-*~*~*~*~*~ Don't Touch *~*~*~*~*~*~*~*~*~*~*~
 
@@ -40,8 +25,12 @@ console.assert( makeAcronym('be right back') === 'BRB' )
 console.assert( makeAcronym('National Broadcasting Company') === 'NBC' )
 console.assert( makeAcronym('Department of Defense') === 'DOD' )
 
-//Explorer Mode -- pass the argument a true/false value to
+
+
+//Explorer Mode -- Pass the argument a true/false value to
 //                 capture prepositions or not.
+
+
 // ---------------------------------------------------
 // console.assert( makeAcronym('president of the United States', true) === 'POTUS' )
 // console.assert( makeAcronym('greatest of all time', true) === 'GOAT' )

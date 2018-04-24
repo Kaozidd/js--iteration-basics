@@ -9,12 +9,11 @@
 */
 
 function reverseString(string) {
-	let rev = "";
-	for (i = string.length - 1; i >= 0; i--) {
-		rev += string[i];
-	}
-	return rev;
+	
+	// 	WRITE YOUR CODE HERE!
+
 }
+
 
 //*-*~*~*~*~*~ Don't Touch *~*~*~*~*~*~*~*~*~*~*~
 console.assert( reverseString('books') === 'skoob')

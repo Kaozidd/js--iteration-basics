@@ -11,11 +11,9 @@
 
 
 function getFirstLetters(array) {
-	let arr = [];
-	for (i = 0; i < array.length; i++) {
-		arr[i] = array[i][0];
-	}
-	return arr;
+	
+	// 	WRITE YOUR CODE HERE!
+
 }
 
 

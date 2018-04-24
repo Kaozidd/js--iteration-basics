@@ -11,13 +11,9 @@
 
 
 function countWordInArray(string, array) {
-	let count = 0;
-	for (i = 0; i < array.length; i++) {
-		if (string === array[i]) {
-			count += 1;
-		}
-	}
-	return count;
+	
+	// 	WRITE YOUR CODE HERE!
+
 }
 
 

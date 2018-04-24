@@ -9,13 +9,9 @@
 
 
 function wordMatchInArray(string, array) {
-	let bool = false;
-	for (i = 0; i < array.length; i++) {
-		if (string === array[i]) {
-			bool = true;
-		}
-	}
-	return bool;
+
+	// 	WRITE YOUR CODE HERE!
+
 }
 
 
